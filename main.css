@@ -58,15 +58,20 @@ img{
     padding-bottom: 10px;
 }
 
+@font-face {
+    font-family: marketFresh;
+    src: url("/assets/fonts/marketfresh.ttf") format('ttf');
+}
+
 .button {
     border-radius: 8px;
     border-color: #EA8300;
     background-color: #EA8300;
     margin-left: 3%;
+    font-family: marketFresh;
     margin-top: 3%;
     padding-bottom: 10px;
     padding-top: 5px;
-    font-family: Antipasto;
     font-size: 30px;
     width: 200px;
     height: 50px;
@@ -82,4 +87,35 @@ img{
     /*background-color: #030202;*/
     width: 100%;
     height: 100%;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+.btn {
+    border: 2px solid #141313;
+    background-image: url("assets/images/uploadfile.png");
+    color: gray;
+    margin-top: 30%;
+    height: 50px;
+    width: 50px;
+    background-color: #030202;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
 }
