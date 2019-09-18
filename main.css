@@ -42,11 +42,28 @@ input[type=text], select, textarea {
     /*margin-right: 5%;*/
 }
 
+.header {
+    text-align: left;
+    width: 100%;
+    background: #141313;
+    border-radius: 8px;
+    color: white;
+    font-size: 30px;
+}
+
+img{
+    padding-top: 10px;
+    width: 20%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
 .button {
     border-radius: 8px;
     border-color: #EA8300;
     background-color: #EA8300;
     margin-left: 3%;
+    margin-top: 3%;
     padding-bottom: 10px;
     padding-top: 5px;
     font-family: Antipasto;
