@@ -11,3 +11,8 @@ function fileToTextBox(var myFile) {
       reader.readAsText(myFile);
       alert("Your function is being called");
 }  
+
+  
+ function message() {
+   alert("Your function was called");
+ }
