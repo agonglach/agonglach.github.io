@@ -9,5 +9,5 @@ function fileToTextBox(var myFile) {
       textArea.value = e.target.result;
   
       reader.readAsText(myFile);
-  
+      alert("Your function is being called");
 }  
